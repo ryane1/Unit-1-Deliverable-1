@@ -1,20 +1,71 @@
+
 li {
   list-style-type: none;
+  margin-right: 15px;
+  font-size: 15px;
+  font-family: Fira Sans;
+  font-weight: 300;
+  color: #88898B;
+}
+
+.action {
+  background: #ff4850;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.action:hover{
+  color: #CCC;
 }
 ul {
-  padding: 0;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  color: #;
 }
 header {
   display: flex;
   flex-direction: column;
+  font-family: Fira Sans;
+  font-weight: 600;
+  font-size: 17px;
+}
+body {
+  margin: 0;
+  background-color: #F0ECEE;
+  height: 150vh;
+  width: 100vw;
+  background-image: url('../images/bulldog.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 10px;
 }
 
+main {
+  font-family: Fira Sans;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 150px;
+}
+button {
+  background: #ff4850;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+button:hover{
+  color: #CCC;
+}
+h6 {
+  color: #88898B;
+}
+/* img{
+  width: 20%;
+} */
 
-
-
-@media only screen and (min-width:768px){
+@media screen and (min-width:768px){
 ul {
   flex-direction: row;
 }
@@ -22,4 +73,9 @@ header{
   flex-direction: row;
   justify-content: space-between;
 }
+@@media screen and (max-width:767px){
+  h6{
+    flex-flow: row wrap;
+  }
+
 }
