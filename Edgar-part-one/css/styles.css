@@ -12,7 +12,7 @@ button {
   color: white;
   border-radius: 15px;
   padding: 10px;
-  width: 80vw;
+  width: 100vw;
 }
 
 
@@ -20,11 +20,12 @@ button:hover {
   background-color: #CCC;
 }
 
-h1 {
+h2 {
   font-weight: 600;
+  flex-wrap: wrap;
 }
 
-h2 {
+h3 {
   color: black;
 }
 
@@ -51,7 +52,7 @@ font-weight: 300;
   align-items: flex-start;
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:768px){
 
 body{
   background-image: url('../image/bulldog.jpg');
